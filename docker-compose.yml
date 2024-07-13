@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  postgres:
+    container_name: threads-db
+    image: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/home/dharayuh7/docker-volume/threads
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRS_DB: threads
+      POSTGRES_PASSWORD: threads
+
+
+
+volumes:
+  postgres_data:
