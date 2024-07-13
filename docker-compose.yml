@@ -11,7 +11,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRS_DB: threads
-      POSTGRES_PASSWORD: threads
+      POSTGRES_PASSWORD: postgres
 
 
 
