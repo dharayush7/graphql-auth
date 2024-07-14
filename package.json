@@ -1,7 +1,7 @@
 {
-  "name": "thread-backend",
+  "name": "auth",
   "version": "1.0.0",
-  "description": "Threads app backend",
+  "description": "Log in using Graphql and Prisma",
   "main": "index.js",
   "scripts": {
     "start": "node build/index.js",
@@ -9,6 +9,7 @@
   },
   "author": "AYUSH DHAR",
   "license": "MIT",
+  "repository": "https://github.com/dharayush7/graphql-auth.git",
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.6",
